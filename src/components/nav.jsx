@@ -2,6 +2,7 @@
 import React, { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { motion } from "framer-motion"; // Importe motion
+import Logo from "./logo/Logo";
 import {
   Bars3Icon,
   XMarkIcon,
@@ -18,31 +19,31 @@ import { BiSolidCategoryAlt } from "react-icons/bi";
 //JSONs
 const categorias = [
   {
-    name: "Escavadeira",
+    name: "Terraplanagem",
     description: "Inclui Mini Escavadeira, Escavadeira e Retroescavadeira",
     items: [
       {
-        name: "Mini Escavadeira",
+        name: "Mini Escavadeiras",
         description: "Versatilidade e eficiência em espaços restritos.",
         href: "/produtos/mini-escavadeira",
         icon: BuildingStorefrontIcon,
       },
       {
-        name: "Escavadeira",
+        name: "Escavadeiras",
         description: "Potência para a sua obra.",
         href: "/produtos/escavadeira",
         icon: BuildingOffice2Icon,
       },
       {
-        name: "Retroescavadeira",
-        description: "Versátil para projetos diversos.",
+        name: "SANY BHL75",
+        description: "Retroescavadeira Versátil para projetos diversos.",
         href: "/produtos/retroescavadeira",
         icon: TbBackhoe,
       },
     ],
   },
   {
-    name: "Maquinário para Estrada",
+    name: "Pavimentação",
     description: "Inclui Rolo Compactador, Pá Carregadeira e Motoniveladora",
     items: [
       {
@@ -52,14 +53,14 @@ const categorias = [
         icon: FaMountainCity,
       },
       {
-        name: "Motoniveladora",
-        description: "Domine o terreno com precisão e potência",
+        name: "SANY STG190C-8",
+        description: "Motoniveladora de precisão",
         href: "/produtos/motoniveladora",
         icon: MdEditRoad,
       },
       {
-        name: "Rolo Compactador",
-        description: "Para uma construção sólida e duradoura",
+        name: "SANY SSR120C10",
+        description: "Rolo Compactador de Alta Performance",
         href: "/produtos/rolo-compactador",
         icon: GiHorizonRoad,
       },
@@ -70,8 +71,8 @@ const categorias = [
     description: "Inclui Caminhão para Mineração",
     items: [
       {
-        name: "Caminhão para Mineração",
-        description: "Equipamento resistente para operações de mineração.",
+        name: "SANY STK90S",
+        description: "Caminhão para Mineração",
         href: "/produtos/caminhao",
         icon: GiMiningHelmet,
       },
@@ -91,7 +92,7 @@ export default function Nav() {
   const [hoveringCategoria, setHoveringCategoria] = useState(null); // Estado para controlar qual categoria está sendo hover
 
   return (
-    <header className="p-4 md:p-4 backdrop-blur-xl bg-slate-100 bg-opacity-70 shadow-sm">
+    <header className="p-2 md:p-2 backdrop-blur-xl bg-slate-100 bg-opacity-90 shadow-sm">
       <nav
         className="flex w-full bg-transparent justify-between items-center md:px-8"
         aria-label="Global"
@@ -99,11 +100,7 @@ export default function Nav() {
         <div className="flex md:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Timber | Sany</span>
-            <img
-              className="h-8  lg:h-8 = w-auto text-black"
-              src="/Timber Construction BL.png"
-              alt=""
-            />
+            <Logo/>
           </a>
         </div>
         <div className="flex lg:hidden">

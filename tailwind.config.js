@@ -9,6 +9,9 @@ module.exports = {
 
   theme: {
     extend: {
+      fontFamily: {
+        'darker': ['Darker Grotesque', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

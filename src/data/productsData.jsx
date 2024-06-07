@@ -132,7 +132,7 @@ const ProductsData = {
       },
       SY55C: {
         name: "SY55C",
-        Src: "/MiniEscavadeira/sy55c/1.png",
+        Src: "/MiniEscavadeira/sy55c/2.png",
         href: "/produtos/mini-escavadeira/sy55c",
         Peso: "5.780 KG",
         Potencia: "48,3cv / 2100 RPM",
