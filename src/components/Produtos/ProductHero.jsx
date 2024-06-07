@@ -84,7 +84,7 @@ function ProductHero({ product }) {
             </motion.p>
           </div>
           <div className="">
-            <motion.img
+            <img
               initial={{ opacity: 0, y: 50 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.3 }}
