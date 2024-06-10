@@ -2,7 +2,7 @@ const SY750H = {
   categoria: "Escavadeira Grande",
   name: "SANY SY750H",
   desc: "A escavadeira Sany SY750H tem excelente desempenho em áreas de mineração. Alta eficiência, muita força de escavação e baixo consumo de combustível estão entre os destaques desta máquina poderosa. Projetada especificamente para condições de trabalhos pesados, a fim de proporcionar uma operação ainda mais suave.",
-  image: "/Escavadeira/SY750H/1.png",
+  image: "/terraplanagem/escav/750h/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 76.200 KG",

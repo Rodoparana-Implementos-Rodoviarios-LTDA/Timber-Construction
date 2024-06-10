@@ -3,7 +3,7 @@ const SW956E = {
   name: "SANY SW956E",
   modelo: "elétrica",
   desc: "A pá carregadeira SW956E oferece alta eficiência, confiabilidade, segurança e conforto. Ela pode carregar mais de 5t e é equipada com motor síncrono de imã permanente de alta potência, proporcionando respostas dinâmicas e rápidas. Além disso, é equipada com um sistema de controle inteligente integrado, oferecendo modernidade e tecnologia ao operador.",
-  image: "/pa/3 56e.png",
+  image: "/pavimentacao/pa/sw956e/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 19.0 T",

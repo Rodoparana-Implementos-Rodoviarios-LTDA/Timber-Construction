@@ -8,34 +8,16 @@ const ProductsData = {
     products: {
       SY215H: {
         name: "SY215H",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2024/02/215H-CATALOGO.png",
+        image: "/terraplanagem/escav/215h/1.webp",
         href: "/produtos/escavadeira/SY215H",
         Tipo: "Escavadeira média",
         Peso: "21.900 KG",
         Potencia: "178 HP/2.000 RPM",
         Capacidade: "1,2 M³",
       },
-      SY135C: {
-        name: "SY135C",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2020/04/135u-640x480-1-600x450.png",
-        href: "/produtos/escavadeira/SY135C",
-        Tipo: "Escavadeira média",
-        Peso: "13.800 KG",
-        Potencia: "98 HP/2.000 RPM",
-        Capacidade: "0,61 a 0,66 M³",
-      },
-      SY155H: {
-        name: "SY155H",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2020/04/640x480-155H-600x450.png",
-        href: "/produtos/escavadeira/SY155H",
-        Tipo: "Escavadeira média",
-        Peso: "14.100 KG",
-        Potencia: "113 HP/2.200 RPM",
-        Capacidade: "0,65 M³",
-      },
       SY215C_10: {
         name: "SY215C_10",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2023/05/SY215c-10.png",
+        image: "/terraplanagem/escav/215c/1.webp",
         href: "/produtos/escavadeira/SY215C10",
         Tipo: "Escavadeira média",
         Peso: "22.000 KG",
@@ -44,7 +26,7 @@ const ProductsData = {
       },
       SY215LR: {
         name: "SY215LR",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2023/05/SY245lr.png",
+        image: "/terraplanagem/escav/215lr/1.webp",
         href: "/produtos/escavadeira/SY215LR",
         Tipo: "Escavadeira de longo alcance",
         Peso: "24.150 KG",
@@ -53,7 +35,7 @@ const ProductsData = {
       },
       SY245H: {
         name: "SY245H",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2023/05/SY245h.png",
+        image: "/terraplanagem/escav/245h/1.webp",
         href: "/produtos/escavadeira/SY245H",
         Tipo: "Escavadeira média",
         Peso: "25.500 KG",
@@ -62,7 +44,7 @@ const ProductsData = {
       },
       SY365H: {
         name: "SY365H",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2023/05/SY365H_Detalhes.jpg",
+        image: "/terraplanagem/escav/365h/1.webp",
         href: "/produtos/escavadeira/SY365H",
         Tipo: "Escavadeira grande",
         Peso: "36.000 KG",
@@ -71,7 +53,7 @@ const ProductsData = {
       },
       SY500H: {
         name: "SY500H",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2020/04/500H-640x480-1-600x450.png",
+        image: "/terraplanagem/escav/500h/1.webp",
         href: "/produtos/escavadeira/SY500H",
         Tipo: "Escavadeira grande",
         Peso: "49.500 KG",
@@ -80,7 +62,7 @@ const ProductsData = {
       },
       SY750H: {
         name: "SY750H",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2023/05/SY750H.jpg",
+        image: "/terraplanagem/escav/750h/1.webp",
         href: "/produtos/escavadeira/SY750H",
         Tipo: "Escavadeira grande",
         Peso: "76.200 KG",
@@ -89,7 +71,7 @@ const ProductsData = {
       },
       SY980H: {
         name: "SY980H",
-        Src: "https://grupotimber.com.br/wp-content/uploads/2020/04/SY980H.png",
+        image: "/terraplanagem/escav/980h/1.webp",
         href: "/produtos/escavadeira/SY980H",
         Tipo: "Escavadeira grande",
         Peso: "95.800 KG",
@@ -105,7 +87,7 @@ const ProductsData = {
     products: {
       SY16C: {
         name: "SY16C",
-        Src: "/MiniEscavadeira/sy16c/1.png",
+        image: "/terraplanagem/mini/sy16c/1.webp",
         href: "/produtos/mini-escavadeira/sy16c",
         Peso: "1.820 KG",
         Potencia: "15cv / 2400 RPM",
@@ -114,7 +96,7 @@ const ProductsData = {
       },
       SY26U: {
         name: "SY26U",
-        Src: "/MiniEscavadeira/sy26u/1.png",
+        image: "/terraplanagem/mini/sy26u/1.webp",
         href: "/produtos/mini-escavadeira/sy26u",
         Peso: "2.780 KG",
         Potencia: "19,6cv / 2400 RPM",
@@ -123,7 +105,7 @@ const ProductsData = {
       },
       SY35U: {
         name: "SY35U",
-        Src: "/MiniEscavadeira/sy35u/1.png",
+        image: "/terraplanagem/mini/sy35u/1.webp",
         href: "/produtos/mini-escavadeira/sy35u",
         Peso: "3.780 KG",
         Potencia: "27,35cv / 2200 RPM",
@@ -132,7 +114,7 @@ const ProductsData = {
       },
       SY55C: {
         name: "SY55C",
-        Src: "/MiniEscavadeira/sy55c/2.png",
+        image: "/terraplanagem/mini/sy55c/1.webp",
         href: "/produtos/mini-escavadeira/sy55c",
         Peso: "5.780 KG",
         Potencia: "48,3cv / 2100 RPM",
@@ -141,12 +123,30 @@ const ProductsData = {
       },
       SY75C: {
         name: "SY75C",
-        Src: "/MiniEscavadeira/sy75c/1.png",
+        image: "/terraplanagem/mini/sy75c/1.webp",
         href: "/produtos/mini-escavadeira/sy75c",
         Peso: "7.280 KG",
         Potencia: "58cv / 2200 RPM",
         Capacidade: "0,32 M³",
         Tipo: "Combustão",
+      },
+      SY135C: {
+        name: "SY135C",
+        image: "/terraplanagem/mini/sy135c/1.webp",
+        href: "/produtos/escavadeira/SY135C",
+        Tipo: "Mini Escavadeira",
+        Peso: "13.800 KG",
+        Potencia: "98 HP/2.000 RPM",
+        Capacidade: "0,61 a 0,66 M³",
+      },
+      SY155H: {
+        name: "SY155H",
+        image: "/terraplanagem/mini/sy155h/1.webp",
+        href: "/produtos/escavadeira/SY155H",
+        Tipo: "Mini Escavadeira",
+        Peso: "14.100 KG",
+        Potencia: "113 HP/2.200 RPM",
+        Capacidade: "0,65 M³",
       },
     },
   },

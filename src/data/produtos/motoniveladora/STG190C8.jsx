@@ -2,7 +2,7 @@ const STG190C8 = {
   categoria: "Motoniveladora",
   name: "SANY STG190C-8",
   desc: "A Motoniveladora SANY STG190C-8 é projetada para operações de nivelamento de estradas, escarificação e remoção de neve em estradas, aeroportos e fazendas. Com sua versatilidade, é perfeita para construção de estradas urbanas e rurais, trabalhos de irrigação e melhoria de terras agrícolas.",
-  image: "/Motoniveladora/1.png",
+  image: "/pavimentacao/moto/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 15.800 KG",

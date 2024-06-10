@@ -2,7 +2,7 @@ const SYL956H5 = {
   categoria: "Pá Carregadeira",
   name: "SANY SYL956H5",
   desc: "A pá carregadeira SYL956H5 oferece alta eficiência e baixo consumo. Seu sistema hidráulico sensível à carga de alta pressão e os principais componentes hidráulicos distribuem o fluxo sob demanda, reduzindo a perda desnecessária de energia e economizando energia em até 10%. Equipada com motor potente Cummins QSL89, reduz o consumo de combustível com sucesso.",
-  image: "/pa/1 6h5.png",
+  image: "/pavimentacao/pa/syl956h5/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 17.1 T",

@@ -2,7 +2,7 @@ const BHL75 = {
   categoria: "Retroescavadeira",
   name: "SANY BHL75",
   desc: "Com sua capacidade multifuncional, a BHL75 torna-se uma escolha excepcional para uma ampla gama de tarefas, desde escavação e carga até manuseio de materiais. Sua facilidade de operação e manobrabilidade a tornam ideal para empreiteiros que buscam produtividade e flexibilidade em seus projetos.",
-  image: "/retroEscavadeira/3.png",
+  image: "/terraplanagem/retro/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 7.650 KG",

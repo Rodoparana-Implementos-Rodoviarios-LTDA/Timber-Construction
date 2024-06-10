@@ -2,7 +2,7 @@ const SY16C = {
   categoria: "Mini Escavadeira",
   name: "SANY SY16C",
   desc: "A mini escavadeira SY16C é ideal para espaços reduzidos, oferecendo alta eficiência, baixo consumo e conforto durante as operações. Versátil e compacta, esta escavadeira proporciona alto desempenho com segurança e sustentabilidade.",
-  image: "/miniEscavadeira/sy16c/2.png",
+  image: "/terraplanagem/mini/sy16c/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 1820 KG",

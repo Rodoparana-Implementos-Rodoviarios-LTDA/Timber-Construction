@@ -2,7 +2,7 @@ const SY980H = {
   categoria: "Escavadeira Grande",
   name: "SANY SY980H",
   desc: "A escavadeira hidráulica Sany SY980H, projetada especificamente para condições de trabalhos pesados, tem excelente desempenho em áreas de mineração. A força de escavação e o baixo consumo de combustível estão entre os destaques desta máquina poderosa. A escavadeira é equipada com o sistema de gerenciamento Four-in-one desenvolvido pela SANY, possui design inteligente que facilita a manutenção e a substituição de peças, tornando o trabalho em condições difíceis mais simples.",
-  image: "/Escavadeira/SY980H/1.png",
+  image: "/terraplanagem/escav/980h/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 95800 KG",

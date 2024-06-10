@@ -2,7 +2,8 @@ const SY26U = {
   categoria: "Mini Escavadeira",
   name: "SANY SY26U",
   desc: "A mini escavadeira SANY SY26U é perfeita para espaços estreitos, oferecendo resistência, alta capacidade e desempenho excepcional. Projetada para trabalhar em áreas confinadas e complicadas, é ideal para projetos de terraplenagem e construção de estradas.",
-  image: "/miniEscavadeira/sy26u/2.png",
+  image: "/terraplanagem/mini/sy26u/1.webp",
+
   features: {
     high1: {
       descrição: "Peso Operacional: 2780 KG",

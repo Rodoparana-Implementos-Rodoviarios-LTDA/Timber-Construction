@@ -2,7 +2,7 @@ const SY75C = {
   categoria: "Mini Escavadeira",
   name: "SANY SY75C",
   desc: "A mini escavadeira SANY SY75C é projetada para oferecer alta potência, deslocamento rápido e eficiência de combustível. Com um motor de quatro cilindros e capacidade para lidar com trabalhos exigentes, é a escolha ideal para uma variedade de aplicações, desde construções urbanas até trabalhos em áreas rurais.",
-  image: "/miniEscavadeira/sy75c/1.png",
+  image: "/terraplanagem/mini/sy75c/1.webp",
   features: {
     high1: {
       descrição: "Peso Operacional: 7280 KG",

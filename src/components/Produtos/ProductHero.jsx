@@ -25,7 +25,7 @@ function ProductHero({ product }) {
   const staggerDelay = 0.1;
 
   return (
-    <div className="bg-slate-100 flex md:justify-between my-40 xl:h-[75vh] xl:flex-row flex-col items-center mx-6 gap-5">
+    <div className="bg-slate-100 flex md:justify-between my-20 xl:h-[75vh] xl:flex-row flex-col items-center mx-6 gap-5">
       {/* Conteúdo da esquerda */}
       <div className="w-full mb-6 md:mb-0">
         {/* Categoria */}
@@ -88,7 +88,7 @@ function ProductHero({ product }) {
               initial={{ opacity: 0, y: 50 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.3 }}
-              src={product.image}
+              src={product.Image}
               alt={`Imagem do ${product.name}`}
               className="hidden lg:block xl:hidden h-full object-cover rounded-xl"
             />
@@ -112,7 +112,7 @@ function ProductHero({ product }) {
                   className="mr-2"
                 />
                 <div>
-                  <p className="text-base text-sm md:text-base lg:text-lg xl:text-xl text-black font-medium">
+                  <p className="text-base md:text-base lg:text-lg xl:text-xl text-black font-medium">
                     {highlight.descrição}
                   </p>
                   <p className="text-gray-600">{highlight.desc}</p>
