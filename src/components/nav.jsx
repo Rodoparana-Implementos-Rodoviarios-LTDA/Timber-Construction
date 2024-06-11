@@ -100,7 +100,7 @@ export default function Nav() {
         <div className="flex md:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Timber | Sany</span>
-            <Logo/>
+            <Logo />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -216,7 +216,11 @@ export default function Nav() {
                 <div className="flex items-center justify-between mb-6">
                   <a href="/" className="-m-1.5 p-1.5">
                     <span className="sr-only">Timber | Sany</span>
-                    <img className="h-8 w-auto" src="/Timber x Sany BL.png" alt="" />
+                    <img
+                      className="h-8 w-auto"
+                      src="/Timber x Sany BL.png"
+                      alt=""
+                    />
                   </a>
                   <button
                     type="button"
@@ -277,14 +281,7 @@ export default function Nav() {
                   </div>
 
                   {/* Grupo Timber */}
-                  <div className="my-6 ">
-                    <a
-                      href="https://grupotimber.com.br"
-                      className="font-semibold text-slate-800 block position-base"
-                    >
-                      Grupo Timber
-                    </a>
-                  </div>
+                  <div className="my-6 ">Grupo Timber</div>
                 </div>
               </div>
             </Dialog.Panel>

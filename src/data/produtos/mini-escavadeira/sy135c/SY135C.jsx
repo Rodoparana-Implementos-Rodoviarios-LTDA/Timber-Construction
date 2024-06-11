@@ -3,7 +3,6 @@ const SY135C = {
   name: "SANY SY135C",
   desc: "Com uma potência de saída do motor otimizada e modos de trabalho multifuncionais, esta máquina oferece uma combinação única de desempenho e eficiência. Sua estrutura robusta e durável, juntamente com a grande capacidade do tanque de combustível, garante uma operação contínua mesmo nos ambientes mais desafiadores. ",
   image: "/terraplanagem/mini/sy135c/1.webp",
-
   features: {
     high1: {
       image: "/svgs/speed.svg",

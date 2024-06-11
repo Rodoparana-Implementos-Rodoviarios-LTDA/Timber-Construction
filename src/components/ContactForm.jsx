@@ -1,4 +1,4 @@
-const ContactForm = (produto) => {
+{/* const ContactForm = (produto) => {
   console.log(produto);
   return (
     <form
@@ -212,4 +212,4 @@ const ContactForm = (produto) => {
   );
 };
 
-export default ContactForm;
+export default ContactForm; */}
