@@ -68,7 +68,7 @@ const ProductFooter = ({ specs }) => {
               Entre em Contato
             </h2>
             {/* Inclua o formulário de contato aqui */}
-            <h3>Whatsapp: 041 99257-3440 </h3>
+            <h3>Whatsapp: 041 98536-2427 </h3>
             <h3>Email: construction@grupotimber.com.br</h3>
           </div>
         </div>
