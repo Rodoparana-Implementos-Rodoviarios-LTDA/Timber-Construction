@@ -1,8 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
-import { GoogleAnalytics } from "@next/third-parties/google";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,11 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <TransitionProvider>
-          <GoogleAnalytics gaId="G-KY94CH7M7R" />
-          {children}
-        </TransitionProvider>
+        <TransitionProvider>{children}</TransitionProvider>
       </body>
+      <GoogleAnalytics gaId="G-KY94CH7M7R" />
     </html>
   );
 }
